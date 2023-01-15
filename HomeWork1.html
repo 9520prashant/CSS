@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        .card {
+            /* border: 1px solid grey;
+             */
+             box-shadow: 1px 1px 8px grey;
+            border-radius: 7px;
+            width: 300px;
+            height: 275px;
+            overflow: auto;
+            padding: 15px;
+            font-family: sans-serif;
+
+        }
+
+        .img {
+            border-radius: 10px;
+            width: 300px;
+        }
+
+        .text {
+            font-size: large;
+            color: black;
+            text-decoration: none;
+        }
+
+        #price1 {
+            font-size: larger;
+            color: rgb(102 116 204);
+            margin: 4px;
+        }
+
+        #price2 {
+            font-size: larger;
+            color: rgb(119 124 133);
+            margin: 4px;
+        }
+
+        #discount {
+            background-color: #3dcc9b;
+            color: rgb(255 255 255);
+            border-radius: 5px;
+            padding: 3px;
+            margin: 4px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <a href="https://www.thecodehelp.in/" target="_blank"><img src="./pics/Web_Dev.jpg" class="img"></a>
+        <a href="https://www.thecodehelp.in/" target="_blank" class="text">
+            <figcaption>Web Development Master Course @dot Batch </figcaption>
+        </a>
+        <hr>
+        <a href="https://www.thecodehelp.in/" target="_blank" style="text-decoration: none;"><span
+                id="price1"><b>₹4500</b></span></a>
+        <a href="https://www.thecodehelp.in/" target="_blank" style="text-decoration: none;"><span
+                id="price2"><del><b>₹6999</b></del></span></a>
+        <a href="https://www.thecodehelp.in/" target="_blank" style="text-decoration: none;"><span id="discount"><b>42%
+                    off</b></span></a>
+    </div>
+</body>
+
+</html>

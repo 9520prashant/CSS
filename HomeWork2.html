@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW2</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            position: relative;
+        }
+
+        .topleft{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 16px;
+        }
+        .topright{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 16px;
+        }
+        .center{
+            position: absolute;
+            top: 50%;
+            bottom:  50%;
+            left: 50%;
+            font-size: 16px;
+            
+        }
+        .bottomleft{
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+        }
+        .bottomright{
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+        .box img {
+            width: 100vw;
+            height: 100vh;
+            /* opacity: 0.5; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+            <img src="./pics/plant.jpg" alt="">
+            <div class="topleft">Topleft</div>
+            <div class="topright">topright</div>
+            <div class="center">center</div>
+            <div class="bottomleft">bottomleft</div>
+            <div class="bottomright">bottomright</div>
+    </div>
+</body>
+
+</html>
